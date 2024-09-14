@@ -11,7 +11,7 @@ const TodoCreate = () => {
     e.preventDefault()
     const newToDo = {
       id: Date.now(),
-      userId: Date.now(),
+      userId: Date.now() % 10,
       title: title,
       completed: checkedCompleted,
     }
