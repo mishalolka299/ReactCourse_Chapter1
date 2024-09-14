@@ -12,12 +12,14 @@ const App = memo(() => {
     // <Routes>
     //   <Route path="/" element={<ToDoTable />} />
     //   <Route path="/todo/:id" element={<ToDoView />} />
+    // <Route index element={<ToDoView />} />
+    // <Route path="*" element={<ToDoView />} />
     // </Routes>
 
     <Routes>
       <Route path="/" element={<ToDoView />}>
-        <Route index element={<ToDoView />} />
-        <Route path="*" element={<ToDoView />} />
+        {/* <Route index element={<ToDoView />} />
+        <Route path="*" element={<ToDoView />} /> */}
       </Route>
     </Routes>
   )
