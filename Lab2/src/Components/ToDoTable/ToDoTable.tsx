@@ -9,7 +9,7 @@ interface ToDoTableProps {
 function ToDoTable({ toDoList }: ToDoTableProps) {
   const [totalCount, setTotalCount] = useState(toDoList.length);
   const [currentPage, setCurrentPage] = useState(1);
-  const [pageSize, setPageSize] = useState(10);
+  const [pageSize] = useState(10);
   const { DeleteToDo } = useActions();
 
   useEffect(() => {
