@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { ToDo } from '../../Types/Types'
 import useActions from '../../Hooks/useActions'
 
 const TodoCreate = () => {

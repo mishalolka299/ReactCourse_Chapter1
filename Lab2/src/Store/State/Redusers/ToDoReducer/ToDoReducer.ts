@@ -1,4 +1,4 @@
-import { IToDo, IToDoState, ToDoActions, ToDoActionTypes } from '../../Types/ToDoTypes'
+import { IToDoState, ToDoActions, ToDoActionTypes } from '../../Types/ToDoTypes';
 
 const initialState: IToDoState = {
   toDoList: [],
