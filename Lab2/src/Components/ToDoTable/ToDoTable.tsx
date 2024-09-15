@@ -1,46 +1,45 @@
-import { useEffect, useState } from 'react';
-import useActions from '../../Hooks/useActions';
-import { ToDo } from '../../Types/Types';
-
-interface ToDoTableProps {
-  toDoList: ToDo[];
-}
+import { useEffect, useState } from 'react'
+import useActions from '../../Hooks/useActions'
+import { ToDoTableProps } from '../../Types/Types'
 
 function ToDoTable({ toDoList }: ToDoTableProps) {
-  const [totalCount, setTotalCount] = useState(toDoList.length);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [pageSize] = useState(10);
-  const { DeleteToDo } = useActions();
+  const [totalCount, setTotalCount] = useState(toDoList.length)
+  const [currentPage, setCurrentPage] = useState(1)
+  const [pageSize] = useState(10)
+  const { DeleteToDo } = useActions()
 
   useEffect(() => {
-    setTotalCount(toDoList.length);
-  }, [toDoList]);
-
+    setTotalCount(toDoList.length)
+  }, [toDoList])
 
   const handlePageChange = (page: number) => {
-    setCurrentPage(page);
-  };
+    setCurrentPage(page)
+  }
 
-  const totalPages = Math.ceil(totalCount / pageSize);
+  const totalPages = Math.ceil(totalCount / pageSize)
 
   const renderPageNumbers = () => {
-    const pageNumbers = [];
+    const pageNumbers = []
     for (let i = 1; i <= totalPages; i++) {
       pageNumbers.push(
-        <li className={`page-item${currentPage === i ? ' active' : ''}`} key={i}>
-          <button className="page-link" onClick={() => handlePageChange(i)}>{i}</button>
+        <li
+          className={`page-item${currentPage === i ? ' active' : ''}`}
+          key={i}
+        >
+          <button className="page-link" onClick={() => handlePageChange(i)}>
+            {i}
+          </button>
         </li>
-      );
+      )
     }
-    return pageNumbers;
-  };
+    return pageNumbers
+  }
 
   const handleDelete = (id: number) => {
-    DeleteToDo(id);
-    const newToDoList = toDoList.filter((item) => item.id !== id);
-    setTotalCount(newToDoList.length);
-  };
-
+    DeleteToDo(id)
+    const newToDoList = toDoList.filter((item) => item.id !== id)
+    setTotalCount(newToDoList.length)
+  }
 
   return (
     <>
@@ -79,20 +78,30 @@ function ToDoTable({ toDoList }: ToDoTableProps) {
       <nav>
         <ul className="pagination justify-content-center">
           <li className={`page-item${currentPage === 1 ? ' disabled' : ''}`}>
-            <button className="page-link" onClick={() => handlePageChange(currentPage - 1)}>
+            <button
+              className="page-link"
+              onClick={() => handlePageChange(currentPage - 1)}
+            >
               Previous
             </button>
           </li>
           {renderPageNumbers()}
-          <li className={`page-item${currentPage === totalPages ? ' disabled' : ''}`}>
-            <button className="page-link" onClick={() => handlePageChange(currentPage + 1)}>
+          <li
+            className={`page-item${
+              currentPage === totalPages ? ' disabled' : ''
+            }`}
+          >
+            <button
+              className="page-link"
+              onClick={() => handlePageChange(currentPage + 1)}
+            >
               Next
             </button>
           </li>
         </ul>
       </nav>
     </>
-  );
+  )
 }
 
-export default ToDoTable;
+export default ToDoTable

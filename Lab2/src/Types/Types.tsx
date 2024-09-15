@@ -1,6 +1,7 @@
-export interface ToDo {
-    userId: number
-    id: number
-    title: string
-    completed: boolean
-  }
+import { IToDo } from '../Store/State/Types/ToDoTypes'
+export interface ToDoTableProps {
+  toDoList: IToDo[]
+}
+export interface TodoSearchProps {
+  toDoList: IToDo[]
+}

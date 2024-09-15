@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { IToDo } from '../../Store/State/Types/ToDoTypes'
+import { TodoSearchProps } from '../../Types/Types'
+import SearchBar from '../SearchBar/SearchBar'
 import ToDoTable from '../ToDoTable/ToDoTable'
-
-interface TodoSearchProps {
-  toDoList: IToDo[]
-}
 
 const TodoSearchTable = ({ toDoList }: TodoSearchProps) => {
   const [searchValue, setSearchValue] = useState('')
@@ -29,22 +26,11 @@ const TodoSearchTable = ({ toDoList }: TodoSearchProps) => {
 
   return (
     <div>
-      <div className="d-flex justify-content-center mb-3">
-        <input
-          className="form-control"
-          type="text"
-          value={searchValue}
-          onChange={handleSearchValueChange}
-          placeholder="Search by title"
-        />
-        <button
-          type="button"
-          onClick={handleResetFilter}
-          className="btn btn-outline-secondary"
-        >
-          Reset
-        </button>
-      </div>
+      <SearchBar
+        searchValue={searchValue}
+        handleSearchValueChange={handleSearchValueChange}
+        handleResetFilter={handleResetFilter}
+      />
       <ToDoTable toDoList={ToDoFilterList ? ToDoFilterList : []} />
     </div>
   )
