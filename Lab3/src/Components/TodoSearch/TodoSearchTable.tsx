@@ -1,39 +1,43 @@
 import React, { useEffect, useState } from 'react'
-import { TodoSearchProps } from '../../Types/Types'
+import useActions from '../../Hooks/useActions'
+import { useTypedSelector } from '../../Hooks/useTypedSelector'
 import SearchBar from '../SearchBar/SearchBar'
 import ToDoTable from '../ToDoTable/ToDoTable'
+import ResetButton from '../ResetButton/ResetButton'
 
-const TodoSearchTable = ({ toDoList }: TodoSearchProps) => {
+const TodoSearchTable = () => {
+  const { ToDoAll } = useActions()
+
   const [searchValue, setSearchValue] = useState('')
-  const [ToDoFilterList, setToDoFilterList] = useState(toDoList)
+  const toDoList = useTypedSelector((state) => state.ToDo.toDoList)
+
+  useEffect(() => {
+    ToDoAll()
+  }, [])
 
   const handleSearchValueChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchValue(e.target.value)
-    const filteredList = toDoList.filter((toDo) =>
-      toDo.title.includes(e.target.value)
-    )
-    setToDoFilterList(filteredList)
   }
 
   const handleResetFilter = () => {
     setSearchValue('')
-    setToDoFilterList(toDoList)
   }
 
-  useEffect(() => {
-    setToDoFilterList(toDoList)
-  }, [toDoList])
+  const filteredList = toDoList.filter((toDo) =>
+    toDo.title.toLowerCase().includes(searchValue.toLowerCase())
+  )
 
   return (
     <div>
-      <SearchBar
-        searchValue={searchValue}
-        handleSearchValueChange={handleSearchValueChange}
-        handleResetFilter={handleResetFilter}
-      />
-      <ToDoTable toDoList={ToDoFilterList ? ToDoFilterList : []} />
+      <div className='d-flex justify-content-between'>
+        <SearchBar
+          searchValue={searchValue}
+          handleSearchValueChange={handleSearchValueChange}
+        />
+        <ResetButton handleResetFilter={handleResetFilter} />
+      </div>
+      <ToDoTable toDoList={filteredList} />
     </div>
   )
 }
-
 export default TodoSearchTable

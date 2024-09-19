@@ -1,22 +1,18 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import useActions from '../../Hooks/useActions'
 import { ToDoTableProps } from '../../Types/Types'
 
+const toDoTablePageSize = 10
+
 function ToDoTable({ toDoList }: ToDoTableProps) {
-  const [totalCount, setTotalCount] = useState(toDoList.length)
   const [currentPage, setCurrentPage] = useState(1)
-  const [pageSize] = useState(10)
+
   const { DeleteToDo } = useActions()
-
-  useEffect(() => {
-    setTotalCount(toDoList.length)
-  }, [toDoList])
-
   const handlePageChange = (page: number) => {
     setCurrentPage(page)
   }
 
-  const totalPages = Math.ceil(totalCount / pageSize)
+  const totalPages = Math.ceil(toDoList.length / toDoTablePageSize)
 
   const renderPageNumbers = () => {
     const pageNumbers = []
@@ -37,8 +33,6 @@ function ToDoTable({ toDoList }: ToDoTableProps) {
 
   const handleDelete = (id: number) => {
     DeleteToDo(id)
-    const newToDoList = toDoList.filter((item) => item.id !== id)
-    setTotalCount(newToDoList.length)
   }
 
   return (
@@ -55,7 +49,10 @@ function ToDoTable({ toDoList }: ToDoTableProps) {
         </thead>
         <tbody>
           {toDoList
-            .slice((currentPage - 1) * pageSize, currentPage * pageSize)
+            .slice(
+              (currentPage - 1) * toDoTablePageSize,
+              currentPage * toDoTablePageSize
+            )
             .map((item) => (
               <tr key={item.id}>
                 <td>{item.id}</td>
