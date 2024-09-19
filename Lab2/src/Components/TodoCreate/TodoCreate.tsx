@@ -7,16 +7,20 @@ const TodoCreate = () => {
 
   const { CreateToDo } = useActions()
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    const newToDo = {
-      id: Date.now(),
-      userId: Date.now() % 10,
-      title: title,
-      completed: checkedCompleted,
-    }
-    CreateToDo(newToDo)
+const handleSubmit = (e: React.FormEvent) => {
+  e.preventDefault()
+  if (title.trim() === '') {
+    alert('Please enter a title')
+    return
   }
+  const newToDo = {
+    id: Date.now(),
+    userId: Date.now() % 10,
+    title: title,
+    completed: checkedCompleted,
+  }
+  CreateToDo(newToDo)
+}
 
   return (
     <div className="border p-2 mb-5">
