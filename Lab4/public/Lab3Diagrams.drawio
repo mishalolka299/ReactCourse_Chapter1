@@ -1,0 +1,375 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
+  <diagram name="Сторінка-1" id="xrQCUMtaXLcoIuHip2_q">
+    <mxGraphModel dx="5250" dy="2610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rira1COckRdEtAg1zxUQ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="70" y="50" width="950" height="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-2" value="provider" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-3" value="store" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="70" width="246" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-5" value="app" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-6" target="rira1COckRdEtAg1zxUQ-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565.0000000000002" y="372.5" as="sourcePoint" />
+            <mxPoint x="1030" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="240" width="246" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-7" value="ToDoView" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-8" value="toDoList" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="490" width="246" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-10" value="TodoCreate" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="146" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-11" value="title" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="256" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-12" value="store:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-13" value="checkedCompleted" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="296" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="490" width="246" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-15" value="TodoSearchTable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-16" value="searchValue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-17" value="ToDoFilterList" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-18" value="state:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-19" value="props:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-20" value="toDoList" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="730" width="246" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="730" width="246" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-23" value="SearchBar" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-24" value="searchValue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="419" y="760" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-25" value="handleSearchValueChange" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="419" y="790" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-26" value="handleResetFilter" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="419" y="820" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-27" value="ToDoTable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-28" value="toDoList" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="750" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-29" value="props:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-30" value="state:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="866" y="770" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-31" value="totalCount" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="790" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-32" value="currentPage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="810" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-33" value="pageSize" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="882" y="830" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-34" value="ToDoAll" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="330" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-35" value="state:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="261" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-36" value="CreateToDo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="569" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-37" value="store:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="261" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-38" value="props:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412" y="730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-39" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-6" target="rira1COckRdEtAg1zxUQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="380" as="sourcePoint" />
+            <mxPoint x="350" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-40" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-35" target="rira1COckRdEtAg1zxUQ-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="380" as="sourcePoint" />
+            <mxPoint x="350" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-41" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-6" target="rira1COckRdEtAg1zxUQ-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="487" y="280" as="sourcePoint" />
+            <mxPoint x="487" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-42" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-38" target="rira1COckRdEtAg1zxUQ-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="880" as="sourcePoint" />
+            <mxPoint x="350" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-43" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-22" target="rira1COckRdEtAg1zxUQ-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="630" as="sourcePoint" />
+            <mxPoint x="350" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-44" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="280" width="169" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-45" value="store" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-48" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Опис компонентів&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;1. App — головний компонент, що загортає додаток і надає доступ до глобального сховища через provider.&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;&lt;/p&gt;&lt;p&gt;2. ToDoView — отримує дані зі сховища через пропси toDoList та ToDoAll і передає їх підкомпонентам для відображення або створення завдань.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;3. TodoCreate — відповідає за створення нових завдань, використовуючи локальний стан для полів title та checked/completed. Додає завдання через метод CreateToDo.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;4. TodoSearchTable — відповідає за пошук і фільтрацію завдань, має локальний стан для searchValue. Отримує список завдань через пропси (toDoList) і передає його підкомпонентам.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;5. SearchBar — отримує значення пошуку та методи для зміни й скидання цього значення через пропси.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;6. ToDoTable — відображає список завдань із пропсів та підтримує пагінацію.&lt;/p&gt;&lt;p&gt;Недоліки&lt;/p&gt;&lt;p&gt;1. Некоректне використання `toDoList` та `ToDoAll` у `ToDoView`: Відсутня чітка різниця між активними (toDoList) та всіма завданнями (ToDoAll), що спричиняє дублювання даних і неправильне відображення.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. Проблема зі станом у `TodoSearchTable`: Локальний стан для фільтрованого списку завдань (ToDoFilterList) дублює пропси і викликає помилки у відображенні, оскільки цей список вже передається до ToDoTable.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="261" y="1356" width="320" height="795" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-9" target="rira1COckRdEtAg1zxUQ-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="263" y="930" />
+              <mxPoint x="1175" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-50" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="60" width="1440" height="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-51" value="provider" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-52" value="store" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2254" y="80" width="246" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-54" value="app" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2254" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2254" y="280" width="246" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-57" value="ToDoView" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2254" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-59" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="500" width="246" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-60" value="TodoCreate" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2046" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-61" value="title" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2156" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-63" value="checkedCompleted" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2196" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-64" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="500" width="246" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-65" value="TodoSearchTable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-66" value="searchValue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-67" value="toDoList" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-68" value="state:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-71" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="740" width="246" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-72" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="740" width="246" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-73" value="SearchBar" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="860" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-74" value="searchValue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2319" y="770" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-75" value="handleSearchValueChange" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2319" y="800" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-77" value="ToDoTable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-78" value="toDoList" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="760" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-79" value="props:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-80" value="state:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2766" y="780" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-82" value="currentPage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="800" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-85" value="state:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2161" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-86" value="CreateToDo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="579" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-87" value="store:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2161" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-88" value="props:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2312" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-89" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-56" target="rira1COckRdEtAg1zxUQ-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2200" y="390" as="sourcePoint" />
+            <mxPoint x="2250" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-90" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-85" target="rira1COckRdEtAg1zxUQ-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2200" y="390" as="sourcePoint" />
+            <mxPoint x="2250" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-91" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-56" target="rira1COckRdEtAg1zxUQ-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2387" y="290" as="sourcePoint" />
+            <mxPoint x="2387" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-92" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-88" target="rira1COckRdEtAg1zxUQ-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2200" y="890" as="sourcePoint" />
+            <mxPoint x="2250" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-93" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-72" target="rira1COckRdEtAg1zxUQ-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2200" y="640" as="sourcePoint" />
+            <mxPoint x="2250" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-94" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="190" width="169" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-95" value="store" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-59" target="rira1COckRdEtAg1zxUQ-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1785" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-97" value="store:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-98" value="ToDoAll" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="579" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-100" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="930" width="246" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-101" value="handleResetFilter" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="970" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-102" value="props:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="950" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-103" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-100" target="rira1COckRdEtAg1zxUQ-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2400" y="830" as="sourcePoint" />
+            <mxPoint x="2450" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-104" value="ResetButton" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="1040" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-105" value="DeleteToDo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2790" y="840" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-106" value="store:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2776" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-72" target="rira1COckRdEtAg1zxUQ-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2773" y="1160" />
+              <mxPoint x="1680" y="1160" />
+              <mxPoint x="1680" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="386" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2340" y="575" />
+              <mxPoint x="2340" y="700" />
+              <mxPoint x="1740" y="700" />
+              <mxPoint x="1740" y="386" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-109" value="DeleteToDo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="760" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-110" value="store:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="796" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" edge="1" parent="1" source="rira1COckRdEtAg1zxUQ-22" target="rira1COckRdEtAg1zxUQ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rira1COckRdEtAg1zxUQ-112" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Опис компонентів&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;1. App — головний компонент, який загортає додаток і забезпечує доступ до глобального сховища через provider.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. ToDoView — отримує дані зі сховища через пропси toDoList та toDoAll, і передає їх підкомпонентам для відображення та управління завданнями.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;3. TodoCreate — компонент для створення нових завдань. Має локальний стан для полів title та checked/completed. Використовує метод CreateToDo для додавання нових завдань.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;4. TodoSearchTable — відповідає за пошук і фільтрацію завдань. Зберігає локальний стан для searchValue і отримує пропси для управління завданнями (toDoList). Цей компонент передає список завдань у свої підкомпоненти.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;5. SearchBar — підкомпонент, який приймає через пропси значення пошуку (searchValue) і методи для його зміни (handleSearchValueChange). Використовується для фільтрації завдань.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;6. ToDoTable — відображає список завдань, який передається через пропси (toDoList). Також підтримує параметри пагінації (currentPage, pageSize) для зручного перегляду завдань.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;7. ResetButton — окремий компонент для скидання фільтрів. Використовує пропс handleResetFilter, щоб ініціювати очищення фільтрів і відновити початковий стан списку завдань.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="1356" width="320" height="740" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
