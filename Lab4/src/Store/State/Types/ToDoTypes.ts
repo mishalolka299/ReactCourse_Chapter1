@@ -8,7 +8,7 @@ export interface IToDo {
 export interface IToDoState {
   toDoList: Array<IToDo>
   currentToDo?: IToDo
-  isLoading: Boolean
+  isLoading: boolean
 }
 
 export enum ToDoActionTypes {

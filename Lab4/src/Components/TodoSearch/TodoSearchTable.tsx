@@ -4,12 +4,15 @@ import { useTypedSelector } from '../../Hooks/useTypedSelector'
 import ResetButton from '../ResetButton/ResetButton'
 import SearchBar from '../SearchBar/SearchBar'
 import ToDoTable from '../ToDoTable/ToDoTable'
+import SectionLoader from '../SectionLoader/SectionLoader'
 
 const TodoSearchTable = () => {
   const { ToDoAll } = useActions()
 
   const [searchValue, setSearchValue] = useState('')
   const toDoList = useTypedSelector((state) => state.ToDo.toDoList)
+
+  const { isLoading } = useTypedSelector((state) => state.ToDo)
 
   useEffect(() => {
     ToDoAll()
@@ -29,14 +32,16 @@ const TodoSearchTable = () => {
 
   return (
     <div>
-      <div className='d-flex justify-content-between'>
+      <div className="d-flex justify-content-between">
         <SearchBar
           searchValue={searchValue}
           handleSearchValueChange={handleSearchValueChange}
         />
         <ResetButton handleResetFilter={handleResetFilter} />
       </div>
-      <ToDoTable toDoList={filteredList} />
+      <SectionLoader isLoading={isLoading}>
+        <ToDoTable toDoList={filteredList} />
+      </SectionLoader>
     </div>
   )
 }

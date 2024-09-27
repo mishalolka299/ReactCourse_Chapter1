@@ -2,7 +2,6 @@ import { memo } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import ToDoView from './Views/ToDoView/ToDoView'
-import Loader from './Components/Loader/Loader'
 
 const App = memo(() => {
   return (
@@ -13,7 +12,7 @@ const App = memo(() => {
     // <Route path="*" element={<ToDoView />} />
     // </Routes>
     <>
-      <Loader />
+      {/* <Loader /> */}
       <Routes>
         <Route path="/" element={<ToDoView />}></Route>
       </Routes>
