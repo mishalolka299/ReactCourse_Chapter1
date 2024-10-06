@@ -15,9 +15,23 @@ const ToDoReducer = (state = initialState, action: ToDoActions): IToDoState => {
     case ToDoActionTypes.EDIT_TODO:
       return {
         ...state,
+        // currentToDo: action.payload,
         toDoList: state.toDoList?.map((toDo) =>
-          toDo.id === action.payload.id ? action.payload : toDo
+          toDo.id === action.payload.id ? {...toDo, title: action.payload.title } : toDo
         ),
+      }
+    case ToDoActionTypes.SET_STATUS_TODO:
+      return {
+        ...state,
+        // currentToDo: action.payload,
+        toDoList: state.toDoList?.map((toDo) =>
+          toDo.id === action.payload.id ? {...toDo, completed: action.payload.completed } : toDo
+        ),
+      }
+    case ToDoActionTypes.SET_CURRENT_TODO:
+      return {
+        ...state,
+        currentToDo: action.payload
       }
     case ToDoActionTypes.DELETE_TODO:
       return {

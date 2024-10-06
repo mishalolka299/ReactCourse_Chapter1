@@ -10,6 +10,14 @@ export interface IToDoState {
   currentToDo?: IToDo
   isLoading: boolean
 }
+export interface IToDoDto {
+  id: number
+  title: string
+}
+export interface IToDoStatus {
+  id: number
+  completed: boolean
+}
 
 export enum ToDoActionTypes {
   GET_ALL_TODO = 'GET_ALL_TODO',
@@ -17,6 +25,8 @@ export enum ToDoActionTypes {
   EDIT_TODO = 'EDIT_TODO',
   DELETE_TODO = 'DELETE_TODO',
   IS_LOADING_SET = 'IS_LOADING_SET',
+  SET_CURRENT_TODO = 'SET_CURRENT_TODO',
+  SET_STATUS_TODO = 'SET_STATUS_TODO',
 }
 
 export interface ToDoAllAction {
@@ -29,6 +39,14 @@ export interface CreateToDoAction {
 }
 export interface EditToDoAction {
   type: ToDoActionTypes.EDIT_TODO
+  payload: IToDoDto
+}
+export interface SetStatusToDoAction {
+  type: ToDoActionTypes.SET_STATUS_TODO
+  payload: IToDoStatus
+}
+export interface SetCurrentToDoAction {
+  type: ToDoActionTypes.SET_CURRENT_TODO
   payload: IToDo
 }
 export interface DeleteToDoAction {
@@ -47,3 +65,5 @@ export type ToDoActions =
   | EditToDoAction
   | DeleteToDoAction
   | SetIsLoadingAction
+  | SetCurrentToDoAction
+  | SetStatusToDoAction

@@ -6,7 +6,9 @@ import {
   DeleteToDoAction,
   EditToDoAction,
   IToDo,
+  SetCurrentToDoAction,
   SetIsLoadingAction,
+  SetStatusToDoAction,
   ToDoActionTypes,
   ToDoAllAction,
 } from '../Types/ToDoTypes'
@@ -18,7 +20,7 @@ export const ToDoAll = () => async (dispatch: Dispatch<ToDoAllAction>) => {
       `https://jsonplaceholder.typicode.com/todos`
     )
     console.log('data', data)
-    await new Promise((resolve) => setTimeout(resolve, 2500))
+    // await new Promise((resolve) => setTimeout(resolve, 2500))
     SetIsLoading(false)(store.dispatch)
     dispatch({
       type: ToDoActionTypes.GET_ALL_TODO,
@@ -38,10 +40,29 @@ export const CreateToDo =
   }
 
 export const EditToDo =
-  (toDo: IToDo) => async (dispatch: Dispatch<EditToDoAction>) => {
+  (id: number, title: string) => async (dispatch: Dispatch<EditToDoAction>) => {
     try {
       dispatch({
         type: ToDoActionTypes.EDIT_TODO,
+        payload: {id, title},
+      })
+    } catch (error: any) {}
+  }
+
+  export const SetToDoStatus =
+  (id: number, completed: boolean) => async (dispatch: Dispatch<SetStatusToDoAction>) => {
+    try {
+      dispatch({
+        type: ToDoActionTypes.SET_STATUS_TODO,
+        payload: {id, completed},
+      })
+    } catch (error: any) {}
+  }
+export const SetCurrentToDo =
+  (toDo: IToDo) => async (dispatch: Dispatch<SetCurrentToDoAction>) => {
+    try {
+      dispatch({
+        type: ToDoActionTypes.SET_CURRENT_TODO,
         payload: toDo,
       })
     } catch (error: any) {}

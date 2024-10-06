@@ -1,13 +1,12 @@
 import { useState } from 'react'
-import useActions from '../../Hooks/useActions'
 import { ToDoTableProps } from '../../Types/Types'
+import TodoRow from '../TodoRow/TodoRow'
 
 const toDoTablePageSize = 10
 
 function ToDoTable({ toDoList }: ToDoTableProps) {
   const [currentPage, setCurrentPage] = useState(1)
 
-  const { DeleteToDo } = useActions()
   const handlePageChange = (page: number) => {
     setCurrentPage(page)
   }
@@ -31,10 +30,6 @@ function ToDoTable({ toDoList }: ToDoTableProps) {
     return pageNumbers
   }
 
-  const handleDelete = (id: number) => {
-    DeleteToDo(id)
-  }
-
   return (
     <>
       <table className="table table-striped table-hover">
@@ -48,27 +43,13 @@ function ToDoTable({ toDoList }: ToDoTableProps) {
           </tr>
         </thead>
         <tbody>
-          {toDoList
+        {toDoList
             .slice(
               (currentPage - 1) * toDoTablePageSize,
               currentPage * toDoTablePageSize
             )
-            .map((item) => (
-              <tr key={item.id}>
-                <td>{item.id}</td>
-                <td>{item.userId}</td>
-                <td>{item.title}</td>
-                <td>{item.completed ? 'Completed' : 'Not Completed'}</td>
-                <td>
-                  <button
-                    type="button"
-                    className="btn btn-outline-danger"
-                    onClick={() => handleDelete(item.id)}
-                  >
-                    Delete
-                  </button>
-                </td>
-              </tr>
+            .map((todo) => (
+              <TodoRow key={todo.id} todo={todo} />
             ))}
         </tbody>
       </table>
