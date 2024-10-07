@@ -10,6 +10,8 @@ interface TodoRowProps {
 const TodoRow = memo(({ todo }: TodoRowProps) => {
   const [isEditMode, setIsEditMode] = useState(false)
   const [toDoTitle, setToDoTitle] = useState(todo.title)
+  const [isError, setIsError] = useState(false)
+  const [errorMessage, setErrorMessage] = useState('')
 
   const { EditToDo } = useActions()
   const { DeleteToDo } = useActions()
@@ -19,9 +21,16 @@ const TodoRow = memo(({ todo }: TodoRowProps) => {
   }
 
   const handleSaveClick = () => {
-    EditToDo(todo.id, toDoTitle)
+    if (toDoTitle.trim() === '') {
+      setIsError(true)
+      setErrorMessage('Title is required')
+    } else {
+      EditToDo(todo.id, toDoTitle)
 
-    setIsEditMode(false)
+      setIsEditMode(false)
+      setIsError(false)
+      setErrorMessage('')
+    }
   }
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -35,6 +44,8 @@ const TodoRow = memo(({ todo }: TodoRowProps) => {
     DeleteToDo(id)
   }
 
+  const inputClassName = `form-control ${isError ? 'is-invalid' : ''}`
+
   return (
     <tr>
       <td>{todo.id}</td>
@@ -46,7 +57,9 @@ const TodoRow = memo(({ todo }: TodoRowProps) => {
             value={toDoTitle}
             onChange={handleInputChange}
             placeholder="Edit Todo"
+            className={inputClassName}
           />
+          {isError && <div className="invalid-feedback">{errorMessage}</div>}
         </td>
       ) : (
         <td>{todo.title}</td>
@@ -74,3 +87,4 @@ const TodoRow = memo(({ todo }: TodoRowProps) => {
   )
 })
 export default TodoRow
+
