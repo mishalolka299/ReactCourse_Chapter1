@@ -1,7 +1,7 @@
 import React, { memo, useState } from 'react'
 
 
-const BookRow = ({ book , EditBook, DeleteToDo}) => {
+const BookRow = ({ book , EditBook, DeleteBook}) => {
   const [isEditMode, setIsEditMode] = useState(false)
   const [bookRowFirstName, setBookRowFirstName] = useState(book.firstName)
   const [bookRowLastName, setBookRowLastName] = useState(book.lastName)
@@ -44,7 +44,7 @@ const BookRow = ({ book , EditBook, DeleteToDo}) => {
 
 
   const handleDelete = (id) => {
-    DeleteToDo(id)
+    DeleteBook(id)
   }
 
   const inputClassName = `form-control ${isError ? 'is-invalid' : ''}`
