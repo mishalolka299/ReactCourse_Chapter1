@@ -1,7 +1,7 @@
 import React, { memo, useState } from 'react'
 
 
-const BookRow = ({ book , EditToDo, DeleteToDo}) => {
+const BookRow = ({ book , EditBook, DeleteToDo}) => {
   const [isEditMode, setIsEditMode] = useState(false)
   const [bookRowFirstName, setBookRowFirstName] = useState(book.firstName)
   const [bookRowLastName, setBookRowLastName] = useState(book.lastName)
@@ -19,8 +19,7 @@ const BookRow = ({ book , EditToDo, DeleteToDo}) => {
       setIsError(true)
       setErrorMessage('Title is required')
     } else {
-      EditToDo(book.id, bookRowFirstName, bookRowLastName, bookRowPhone)
-
+      EditBook(book.id, bookRowFirstName, bookRowLastName, bookRowPhone)
       setIsEditMode(false)
       setIsError(false)
       setErrorMessage('')
@@ -29,12 +28,12 @@ const BookRow = ({ book , EditToDo, DeleteToDo}) => {
 
   const handleFirstNameInputChange = (e) => {
     if (isEditMode) {
-      bookRowFirstName(e.target.value)
+      setBookRowFirstName(e.target.value)
     }
   }
   const handleLastNameInputChange = (e) => {
     if (isEditMode) {
-      bookRowLastName(e.target.value)
+      setBookRowLastName(e.target.value)
     }
   }
   const handlePhoneInputChange = (e) => {
